@@ -1,0 +1,35 @@
+{
+  "users": [
+   {
+      "id": 1,
+      "First name": "deekshith",
+      "Second name": "Gowda",
+      "age": 22
+    },
+    
+    {
+      "id": 2,
+      "First name": "dhanush",
+      "Second name": "Gowda",
+      "age": 22
+    },
+    {
+      "id": 3,
+      "First name": "lal",
+      "Second name": "singh",
+      "age": 22
+    }
+    
+    
+  ],
+  "Subjects": [
+    {
+      "profession": "teacher",
+      "salary": 8000
+    },
+    {
+      "profession": "Engineer",
+      "salary": 90000
+    }
+  ]
+}

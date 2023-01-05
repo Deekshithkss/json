@@ -1,0 +1,119 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "users": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "First name": {
+              "type": "string"
+            },
+            "Second name": {
+              "type": "string"
+            },
+            "age": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "id",
+            "First name",
+            "Second name",
+            "age"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "First name": {
+              "type": "string"
+            },
+            "Second name": {
+              "type": "string"
+            },
+            "age": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "id",
+            "First name",
+            "Second name",
+            "age"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "First name": {
+              "type": "string"
+            },
+            "Second name": {
+              "type": "string"
+            },
+            "age": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "id",
+            "First name",
+            "Second name",
+            "age"
+          ]
+        }
+      ]
+    },
+    "Subjects": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "profession": {
+              "type": "string"
+            },
+            "salary": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "profession",
+            "salary"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "profession": {
+              "type": "string"
+            },
+            "salary": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "profession",
+            "salary"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "users",
+    "Subjects"
+  ]
+}
